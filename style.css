@@ -8,20 +8,28 @@
 .header{
 	width: 100%;
 	height: 100px;
+	position: relative;
+	
+}
+.nav{
 	
 }
 .logo{
 	width: 1400px;
 	margin: 0 auto;
+	
+	padding-top: 50px;
 }
 .content{
 	width: 1400px;
 	margin: 0 auto;
+
 }
 .gallery{
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
+	margin-left: -20px;
 	
 	
 }
@@ -48,11 +56,19 @@
 .gallery__link:hover{
 box-shadow: 0 0 10px 5px rgba(20, 20, 20, .5);
 }
-.gallery_item img{
+
+.footer{
+	clear: both;
+	width: 100%;
+	height: 50px;
+	margin-top: 200px;
+	}
+
+ img{
 	transition: transform, box-shadow .3s, .3s linear;
 }
 
-.gallery__item img:hover{
+ img:hover{
 	transform: scale(1.2);
 }
 
